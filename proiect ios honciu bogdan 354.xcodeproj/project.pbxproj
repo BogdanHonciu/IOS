@@ -14,6 +14,9 @@
 		71FE60A22878705F00AC2D59 /* proiect_ios_honciu_bogdan_354.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71FE60A02878705F00AC2D59 /* proiect_ios_honciu_bogdan_354.xcdatamodeld */; };
 		71FE60A42878706000AC2D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FE60A32878706000AC2D59 /* Assets.xcassets */; };
 		71FE60A72878706000AC2D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FE60A52878706000AC2D59 /* LaunchScreen.storyboard */; };
+		71FE60B52878734F00AC2D59 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FE60B32878734F00AC2D59 /* ToDoListItem+CoreDataClass.swift */; };
+		71FE60B62878734F00AC2D59 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FE60B42878734F00AC2D59 /* ToDoListItem+CoreDataProperties.swift */; };
+		71FE60BC2878A45D00AC2D59 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71FE60BB2878A45D00AC2D59 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		71FE60A32878706000AC2D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FE60A62878706000AC2D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71FE60A82878706000AC2D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FE60B32878734F00AC2D59 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		71FE60B42878734F00AC2D59 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		71FE60BB2878A45D00AC2D59 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,27 @@
 		71FE60962878705F00AC2D59 /* proiect ios honciu bogdan 354 */ = {
 			isa = PBXGroup;
 			children = (
+				71FE60B82878737700AC2D59 /* ToDoListItem */,
 				71FE60972878705F00AC2D59 /* AppDelegate.swift */,
 				71FE60992878705F00AC2D59 /* SceneDelegate.swift */,
 				71FE609B2878705F00AC2D59 /* ViewController.swift */,
 				71FE609D2878705F00AC2D59 /* Main.storyboard */,
+				71FE60BB2878A45D00AC2D59 /* audio.mp3 */,
 				71FE60A32878706000AC2D59 /* Assets.xcassets */,
 				71FE60A52878706000AC2D59 /* LaunchScreen.storyboard */,
 				71FE60A82878706000AC2D59 /* Info.plist */,
 				71FE60A02878705F00AC2D59 /* proiect_ios_honciu_bogdan_354.xcdatamodeld */,
 			);
 			path = "proiect ios honciu bogdan 354";
+			sourceTree = "<group>";
+		};
+		71FE60B82878737700AC2D59 /* ToDoListItem */ = {
+			isa = PBXGroup;
+			children = (
+				71FE60B32878734F00AC2D59 /* ToDoListItem+CoreDataClass.swift */,
+				71FE60B42878734F00AC2D59 /* ToDoListItem+CoreDataProperties.swift */,
+			);
+			path = ToDoListItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71FE60A72878706000AC2D59 /* LaunchScreen.storyboard in Resources */,
+				71FE60BC2878A45D00AC2D59 /* audio.mp3 in Resources */,
 				71FE60A42878706000AC2D59 /* Assets.xcassets in Resources */,
 				71FE609F2878705F00AC2D59 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +162,8 @@
 				71FE60A22878705F00AC2D59 /* proiect_ios_honciu_bogdan_354.xcdatamodeld in Sources */,
 				71FE609C2878705F00AC2D59 /* ViewController.swift in Sources */,
 				71FE60982878705F00AC2D59 /* AppDelegate.swift in Sources */,
+				71FE60B52878734F00AC2D59 /* ToDoListItem+CoreDataClass.swift in Sources */,
+				71FE60B62878734F00AC2D59 /* ToDoListItem+CoreDataProperties.swift in Sources */,
 				71FE609A2878705F00AC2D59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
